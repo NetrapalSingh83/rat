@@ -12,7 +12,7 @@ from sseclient import SSEClient
 # ---------------- CONFIG ----------------
 
 # BOT_TOKEN: GitHub Secrets (Actions) me BOT_TOKEN set karo
-BOT_TOKEN = "8251270500:AAFBDB3L_JRgWpShN6qy236pVg86iT1gCaI"
+BOT_TOKEN = "7320920377:AAEMDwpXPRul7pxHLx1no580mpUNzPRc488"
 
 if not BOT_TOKEN or BOT_TOKEN.strip() == "":
     print("❌ BOT_TOKEN missing inside ra.py file!")
@@ -775,6 +775,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         running = False
         print("Shutting down.")
+
 
 
 
